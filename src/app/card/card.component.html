@@ -1,0 +1,8 @@
+<div class="card my-4" >
+    <img [src]="product?.image!" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{product?.title!}}</h5>
+       <!-- <p class="card-text">{{books.summary}}</p>  -->
+  <button class="btn btn-primary"  (click) = "addtoCart(product!)" >{{product?.price!.currency!}}{{product?.price!.value!}} Buy Now!</button>
+    </div>
+  </div> 

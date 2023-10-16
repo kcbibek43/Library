@@ -1,0 +1,13 @@
+
+p{
+    height: 150px;  
+    overflow: scroll;
+}
+img{
+    width: auto;
+    height: 300px;
+}
+
+h5{
+    height: 50px;
+}
